@@ -1,0 +1,50 @@
+.banner {
+  height: 740px;
+  background-repeat: no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  &__wrapper {
+    transform: translateY(50%);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 560px;
+    padding: 40px 50px;
+    background: rgba(104, 139, 163, 0.62);
+    backdrop-filter: blur(2px);
+    border-radius: 4px;
+    h1 {
+      font-family: "Cera Pro";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      color: #fff;
+      margin-bottom: 30px;
+      max-width: 460px;
+    }
+  }
+  button {
+    padding: 18px 50px;
+    background-color: #e2762a;
+    border-radius: 4px;
+    font-family: "Neris";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+  }
+  &__arrows {
+    transform: translateY(450%);
+    img {
+      cursor: pointer;
+      &:first-child {
+        margin-right: 6px;
+      }
+    }
+  }
+}
